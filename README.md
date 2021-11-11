@@ -1,5 +1,5 @@
 # portfolio
 
-#Updated design porfolio as of 12/11/21
+Updated design porfolio as of 12/11/21
 
-#Looking for summer internship opportunities
+Looking for summer internship opportunities
