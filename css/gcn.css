@@ -1,0 +1,96 @@
+
+
+/*********************/
+/******LANDING********/
+/*********************/
+.heading{
+    background:#427C52;
+}
+.productlink{
+    background: #BFA2E5;
+}
+
+/*********************/
+/******PROBLEM********/
+/*********************/
+
+.prob1{
+    width:28vw;
+}
+.prob2{
+    width:38vw;
+}
+
+/*********************/
+/******PROCESS********/
+/*********************/
+.screens img{
+    width:25vw !important;
+}
+.screens{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.screens .text{
+    display: flex;
+    align-items: flex-start;
+}
+.screens h4{
+    font-size: 4rem;
+    margin: 0vw 1vw 0vh 2vw;
+    color: #80C58B;
+}
+
+.screen2{
+    padding:0vh 4vw 0vh 2vw;
+}
+
+
+.process1, .process3, .process5{
+    transform:translateX(-8vw);
+    width:37vw !important;
+}
+.process2, .process4{
+    transform: translateX(6vw);
+    width:33vw !important;
+}
+.process5{
+    width:33vw !important;
+}
+
+
+/*********************/
+/****FINAL DESIGN*****/
+/*********************/
+
+.mockups img{
+    width: 90% !important;
+}
+.mockups{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mockups .left{
+    transform: translateX(-2vw);
+    text-align:right;
+}
+.mockups .left h3{
+    padding-right: 2vw;
+}
+.mockups .right{
+    transform: translateX(3vw);
+}
+.mockups .right h3{
+    padding-left:4vw;
+}
+
+
+/*********************/
+/******MORE WORK******/
+/*********************/
+.overlay1{
+    background-color: #700E0B;
+}

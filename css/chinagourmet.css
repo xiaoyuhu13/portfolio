@@ -1,0 +1,272 @@
+h1{
+    font-size: 2.0rem;
+    font-weight: 400;
+}
+h2{
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+h3{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+img{
+    width:20vw;
+}
+
+.content-wrapper{
+    margin:20vh 15vw;
+}
+
+
+
+/*********************/
+/******LANDING********/
+/*********************/
+
+.mainimage{
+    width:62vw;
+    border-radius: 0px;
+}
+
+.heading{
+    color:white;
+    background:#700E0B;
+    text-align: left;
+    border-radius: 5px;
+    padding: 2vh 3vw 2vh 3vw;
+    width: 16vw;
+    position: absolute;
+    left:7vw;
+    top:22vh;
+}
+
+.productlink{
+    background:#FFCB74;
+    border-radius:5px;
+    padding: 1vh 3vw 1vh 3vw;
+    position:absolute;
+    right:8vw;
+    bottom:-6vh;
+
+}
+.productlink a{
+    color:black;
+}
+
+.landing h3{
+    font-weight: 400 !important;
+}
+
+/*********************/
+/******LANDING********/
+/*********************/
+
+.title img{
+    width:13vw;
+    margin-left:2vw;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.overview .content p{
+    width:40vw;
+}
+
+.overview .content{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.overview{
+    margin-top:8vh;
+}
+
+/*********************/
+/******PROBLEM********/
+/*********************/
+
+.img p{
+    font-style: italic;
+}
+
+.problem .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.problem .section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prob1{
+    width:40vw;
+    transform: translateX(-5vw);
+}
+.prob2{
+    width:32vw;
+    transform: translateX(5vw);
+}
+
+
+/*********************/
+/******PROCESS********/
+/*********************/
+
+.process .section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2vh 0vw 2vh 0vw;
+}
+
+.process .content img{
+    width:35vw;
+}
+
+.process1, .process3, .process5{
+    transform:translateX(-6vw);
+    width:37vw !important;
+}
+.process2, .process4{
+    transform: translateX(4vw);
+    width:33vw !important;
+}
+
+/*.process .two, .process .four{
+    text-align: right;
+}*/
+
+
+/*********************/
+/****FINAL DESIGN*****/
+/*********************/
+
+.finaldesign .section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.finaldesign .content img{
+    width:70vw;
+    padding: 2vh 0vw;
+}
+
+.covidnote{
+    width:64vw !important;
+    transform: translateX(-10vw);
+}
+.homepage{
+    width:82vw !important;
+}
+.ordering{
+    width:75vw !important;
+    transform: translateX(1vw);
+}
+.menu{
+    width:83vw !important;
+    transform: translateX(-2vw);
+}
+.hours{
+    width:75vw !important;
+    transform: translateX(-1vw);
+}
+
+
+
+
+
+
+/*********************/
+/****MORE WORK********/
+/*********************/
+
+.cs1, .cs2 {
+    position: relative;
+    width: 30vw;
+  }
+  
+ .morework img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #427C52;
+    border-radius: 3px;
+  }
+
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #242124;
+    border-radius: 3px;
+  }
+  
+  .cs1:hover .overlay1 {
+    opacity: 1;
+  }
+  .cs2:hover .overlay2 {
+    opacity: 1;
+  }
+  
+  .morework h3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-bottom: 5vh;
+  }
+
+  .morework .content{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .morework h1{
+    text-align: center;
+    padding-bottom: 4vh;
+    font-weight: bold;
+}
+
+
+
+
+
+
+  
+  

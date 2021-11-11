@@ -1,0 +1,175 @@
+
+/*****************************/
+/************BODY*************/
+/*****************************/
+
+body{
+    background: #FFFCF8;
+}
+
+.content-wrapper{
+    margin:20vh 10vw;
+}
+
+.row{
+    padding-bottom: 10vh;
+}
+
+.section {
+    margin: 4vw 0vw 4vh 0vw;
+}
+
+/*****************************/
+/***********FONTS*************/
+/*****************************/
+
+h1, h2, h3, p{
+    font-family: 'Karla', sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 400;
+}
+h2{
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+p{
+    font-size: 1.125rem;
+    line-height: 180%;
+}
+
+
+/*****************************/
+/*******HEADER/FOOTER*********/
+/*****************************/
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vh 2vw;
+}
+
+#header a{
+    text-decoration: none;
+    color: black;
+    margin: 0vh 1vw;
+}
+
+#header h3{
+    font-weight: bold;
+}
+
+#header a:hover{
+    color:#DC330E;
+}
+
+.landing h2{
+    font-weight: 400;
+}
+
+#header .right{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.name{
+    width:5vw;
+    transform: translateX(-2vw);
+}
+
+
+#footer{
+    text-align: center;
+    margin:5vh;
+}
+#footer p{
+    font-style: normal;
+}
+
+.socials img{
+    width: 2.5vw;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.mail{
+    transform: translateX(13vw);
+}
+.link{
+    transform:translateX(-13vw);
+}
+/*****************************/
+/*************HOME************/
+/*****************************/
+
+.landing, .case-studies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.landing{
+    margin:0vh 8vw 30vh 8vw;
+    height:75vh;
+    margin-bottom:0vh;
+}
+.case-studies{
+    margin-left: 2vw;
+    padding-top:10vh;
+}
+
+.case{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 14vh;
+}
+
+.case p{
+    font-style: italic;
+}
+
+.gcn .image, .bento .image{
+    margin-right:4vw;
+}
+.cg .image{
+    margin-left: 4vw;
+}
+.gcn .label, .bento .label{
+    text-align: left;
+}
+.cg , .label{
+    text-align: right;
+}
+.cg{
+    margin-left: 5vw;
+}
+
+.gcn .image{
+    border-radius: 5px;
+}
+
+.image{
+    width: 32vw;
+}
+
+.image:hover{
+    transform: scale(1.05);
+    transition: transform 330ms ease-in-out;
+
+}

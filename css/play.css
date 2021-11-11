@@ -1,0 +1,98 @@
+
+body{
+    background: #222222;
+}
+h1, h2, h3, p{
+    color: white;
+
+}
+h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-left: 6vw;
+}
+
+#header h3:hover{
+    color:orangered;
+}
+
+.name, .link, .mail{
+    filter:invert(1);
+}
+
+img {
+    width:30vw;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15vh;
+}
+
+.art-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+.section .right, .section .left{
+    display: flex;
+    flex-direction: column;
+}
+
+.cake{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*section 1*/
+.bro{
+    margin-right: 1vw;
+}
+.wave{
+    margin-left: 1vw;
+    margin-bottom:1.5vh;
+    width:33vw
+}
+.jungkook{
+    margin-left: 1vw;
+    margin-top:1.5vh;
+    width:33vw;
+}
+
+/*section 2*/
+.sathergate{
+    padding-right:4vw;
+    margin-bottom: 14vh;
+    width:25vw;
+    transform: scalex(-1);
+}
+.miningcircles{
+    margin-right:4vw;
+    margin-bottom: 2vh;
+    width:37vw;
+}
+.firefalls{
+    margin-left:1vw;
+}
+
+/*section 3*/
+.unicorn{
+    margin-right: 0.8vw;
+    margin-bottom: 1.5vh;
+}
+.tier{
+    margin-left: 0.8vw;
+    margin-bottom: 1.5vh;
+}
+.flowers{
+    margin-top: 1.5vh;
+    width:61.5vw;
+}
+
+
+

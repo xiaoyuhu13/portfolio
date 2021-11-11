@@ -1,0 +1,17 @@
+
+
+.xiao{
+    width:27vw;
+    border-radius: 100%;
+}
+
+.content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.about{
+    width: 45vw;
+}

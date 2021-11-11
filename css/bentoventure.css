@@ -1,0 +1,92 @@
+
+
+/*********************/
+/******LANDING********/
+/*********************/
+.heading{
+    background:#242124;
+}
+.productlink{
+    background: #971A16;
+}
+
+.heading h1, .heading h3{
+    color:white;
+}
+
+.productlink h3{
+    color:white;
+}
+
+.productlink a{
+    color:white;
+}
+
+/*********************/
+/********USERS********/
+/*********************/
+.bento-image{
+    text-align: center;
+    font-style: italic;
+}
+
+.users{
+    text-align: left;
+}
+
+
+/*********************/
+/******PROCESS********/
+/*********************/
+.four{
+    flex-direction: column;
+    align-items: baseline !important;
+ 
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top:2vh;
+}
+
+.proto1{
+    width:40vw;
+    transform: translateX(-2vw);
+}
+.proto2{
+    width:33vw;
+    transform: translateX(1vw);
+}
+
+/*********************/
+/****FINAL DESIGN*****/
+/*********************/
+
+.finaldesign .content img{
+    width:30vw !important;
+}
+
+.finaldesign .section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    margin-top:2vh;
+    
+}
+
+.finaldesign .section p{
+    margin-top:0px;
+    padding-top:0px;
+}
+
+
+/*********************/
+/******MORE WORK******/
+/*********************/
+
+.overlay2{
+    background-color: #700E0B;
+}
