@@ -99,17 +99,17 @@ p{
     width: 2.5vw;
 }
 .socials{
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     
 }
 .mail{
-    transform: translateX(13vw);
+    transform: translateX(11vw);
 }
 .link{
-    transform:translateX(-13vw);
+    transform:translateX(-11vw);
 }
 /*****************************/
 /*************HOME************/
