@@ -117,6 +117,28 @@ img{
     transform: translateX(5vw);
 }
 
+/*********************/
+/********USERS********/
+/*********************/
+.personas img{
+    width:23vw;
+}
+.personas{
+    display: flex;
+    justify-content: space-evenly;
+    margin:4vh 0vw 4vh 0vw;
+}
+.nora{
+    margin-right:2vw;
+}
+.tessa{
+    margin-left: 2vw;
+}
+
+
+
+
+
 
 /*********************/
 /******PROCESS********/
@@ -180,6 +202,39 @@ img{
 .hours{
     width:75vw !important;
     transform: translateX(-1vw);
+}
+
+.impact{
+    text-align: center;
+    margin-bottom:8vh;
+}
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.stats p{
+    margin-top:0px;
+}
+.stats h2{
+    margin-bottom:5px;
+    font-weight: bold;
+}
+
+.stats .line{
+    background:#700E0B;
+    height:5px;
+    width:10vw;
+}
+
+.button{
+    background:#FFCB74;
+    padding:8px 20px;
+    width:14vw;
+    border-radius:5px;
+    margin:auto;
+    margin-top:3vh;
 }
 
 

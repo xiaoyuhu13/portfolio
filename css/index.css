@@ -23,7 +23,7 @@ body{
 /***********FONTS*************/
 /*****************************/
 
-h1, h2, h3, p{
+h1, h2, h3, p, li{
     font-family: 'Karla', sans-serif;
 }
 
@@ -39,7 +39,7 @@ h3{
     font-size: 1.25rem;
     font-weight: 400;
 }
-p{
+p, li{
     font-size: 1.125rem;
     line-height: 180%;
 }
@@ -68,7 +68,7 @@ p{
 }
 
 #header a:hover{
-    color:#DC330E;
+    color:#E98813
 }
 
 .landing h2{
@@ -96,7 +96,7 @@ p{
 }
 
 .socials img{
-    width: 2.5vw;
+    width: 2vw;
 }
 .socials{
     display: flex !important;
@@ -106,10 +106,10 @@ p{
     
 }
 .mail{
-    transform: translateX(11vw);
+    transform: translateX(12vw);
 }
 .link{
-    transform:translateX(-11vw);
+    transform:translateX(-12vw);
 }
 /*****************************/
 /*************HOME************/
@@ -156,8 +156,8 @@ p{
 .cg , .label{
     text-align: right;
 }
-.cg{
-    margin-left: 5vw;
+.gcn{
+    margin-right: 5vw;
 }
 
 .gcn .image{

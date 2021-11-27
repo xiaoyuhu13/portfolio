@@ -22,6 +22,20 @@
 }
 
 /*********************/
+/*********USERS*******/
+/*********************/
+.personas img{
+    width:38vw;
+}
+.denise{
+    margin-right:2vw;
+}
+.warren{
+    margin-left:2vw;
+}
+
+
+/*********************/
 /******PROCESS********/
 /*********************/
 .screens img{
@@ -87,6 +101,16 @@
     padding-left:4vw;
 }
 
+.stats .line{
+    background: #CBC1E8;
+    height:20px;
+    width:20vw;
+}
+
+.impact{
+    border-bottom: 8px solid #CBC1E8;
+    padding-bottom:6vh;
+}
 
 /*********************/
 /******MORE WORK******/

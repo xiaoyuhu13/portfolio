@@ -9,11 +9,11 @@ h1, h2, h3, p{
 h2{
     font-size: 2rem;
     font-weight: 400;
-    margin-left: 6vw;
+    margin-left: 17vw;
 }
 
 #header h3:hover{
-    color:orangered;
+    color:#E98813;
 }
 
 .name, .link, .mail{
