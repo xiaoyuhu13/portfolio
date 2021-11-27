@@ -87,6 +87,14 @@ p, li{
 }
 
 
+.header-container{
+    display: block;
+    position: sticky;
+    top: 10px;
+    z-index: 20;
+}
+
+
 #footer{
     text-align: center;
     margin:5vh;
