@@ -9,7 +9,7 @@ h1, h2, h3, p{
 h2{
     font-size: 2rem;
     font-weight: 400;
-    margin-left: 17vw;
+    margin-left: 7vw;
 }
 
 #header h3:hover{
@@ -92,6 +92,66 @@ img {
 .flowers{
     margin-top: 1.5vh;
     width:61.5vw;
+}
+
+.section a{
+    color:#E98813;
+}
+
+
+
+/***************************/
+/******MOBILE STYLE*********/
+/***************************/
+
+@media only screen and (max-width:640px){
+
+    h1{
+        font-size:2.5rem;
+    }
+    h2{
+        font-size:1.5rem;
+        margin:0vw;
+    }
+    .content-wrapper{
+        margin:16vh 5vw 10vw 5vw;
+    }
+    .section{
+        margin-top: 12vh;
+        margin-bottom: 8vh;
+    }
+
+
+    .section{
+        text-align: center;
+    }
+
+
+    .hamburger{
+        filter:invert(1);
+    }
+    .art-wrapper{
+        flex-direction: column;
+    }
+    .left, .right, .top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .art-wrapper img{
+        width:80vw !important;
+        margin:10px 0px 10px 0px;
+        padding: 0px;
+    }
+
+    .sathergate{
+        width:60vw !important;
+        margin:0 auto !important;
+        margin-top:10px !important;
+    }
+    .miningcircles{
+        margin-bottom:20px !important;
+    }
 }
 
 

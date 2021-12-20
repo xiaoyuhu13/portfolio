@@ -83,16 +83,16 @@ p, li{
 }
 .name{
     width:5vw;
-    transform: translateX(-2vw);
+    transform: translate(-1.5vw, 1vh);
 }
 
 
-.header-container{
+/*.header-container{
     display: block;
     position: sticky;
     top: 10px;
     z-index: 20;
-}
+}*/
 
 
 #footer{
@@ -179,5 +179,139 @@ p, li{
 .image:hover{
     transform: scale(1.05);
     transition: transform 330ms ease-in-out;
+
+}
+
+
+
+/***************************/
+/******MOBILE STYLE*********/
+/***************************/
+
+.mobile-nav, .mobile-header{
+    display: none;
+}
+
+
+@media only screen and (max-width:640px){
+    #footer{
+        margin:0vh;
+        margin-bottom: 8vh;
+    }
+    .socials img{
+        width:8vw;
+        margin-bottom: 1vh;
+    }
+    .link{
+        transform: translateX(-25px);
+    }
+    .mail{
+        transform: translateX(25px);
+    }
+
+    h1{
+        font-size:2.5rem;
+    }
+    h2{
+        font-size:1.5rem;
+    }
+
+
+    .content-wrapper{
+        margin:14vh 5vw 10vh 5vw;
+    }
+
+    
+    .case img{
+        width:70vw;
+        margin:0vh 0vw !important;
+    }
+    .case{
+        flex-direction: column;
+    }
+    .label{
+        text-align: center !important;
+    }
+    .case-studies{
+        padding-top: 4vh;
+    }
+
+
+    .cg img{
+        transform:translateY(-210px);
+    }
+    .cg .label{
+        transform: translateY(140px);
+    }
+
+    .case{
+        padding-bottom: 8vh;
+    }
+
+
+    /*mobile navbar*/
+    .header-container{
+    display: none;
+}
+    .mobile-header{
+        display: block;
+    }
+
+
+    #close:hover, .hamburger:hover{
+        cursor: pointer;
+    }
+    #close, .hamburger, .name{
+        width:6vw;
+        position: absolute;
+        top: 3vh;
+        right: 6vw;
+        width:8vw;
+    }
+
+    .name{
+        position: absolute;
+        top:1vh;
+        left:6vw;
+        width:12vw;
+    }
+
+    #close{
+        filter:invert(1);
+    }
+    .mobile-nav{
+        background:#E98813;
+        width:100vw;
+        height:100vh;
+        position: fixed;
+        z-index: 10;
+        top:0px;
+    }
+
+    .mobile-nav h3{
+        margin:0px;
+        font-size: 2rem;
+    }
+    .mobile-nav a{
+        text-decoration: none;
+        color:white;
+        font-family: 'Karla';
+        font-size: 2rem;
+        font-weight: 400;
+        margin:20px;
+    }
+
+    body{
+        margin:0px;
+    }
+
+    .mobile-nav .links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
 
 }
