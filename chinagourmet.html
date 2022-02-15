@@ -67,12 +67,8 @@
         </div>
         
         <div class='content'>
-            <p>China Gourmet Longmont is a local family owned Chinese restaurant that I worked at 
-                as a cashier and waitress for two years. After being hit with the COVID19, 
-                China Gourmet began to take orders through delivery apps such as DoorDash. However, 
-                online ordering was not availible through their website. To address this issue, my 
-                coworker and I redesigned and coded a new responsive website to adapt China Gourmet to 
-                the pandemic, and better express its modern brand. 
+            <p>China Gourmet Longmont is a local family owned Chinese restaurant where I worked as a cashier and waitress for two years. Their original website hosted information for both the Longmont and Boulder locations, leading to customer confusion when ordering. They also did not have their online ordering options linked, and the menu led to a 10 page pdf which was difficult for users to scroll through, especially on mobile. These issues became exacerbated after COVID19 hit. Having just taken a web design class the previous semester, I took on the project of redesigning and coding a new website for them to practice my newly learned web design skills, and help out a restaurant that I cared about. I redesigned the desktop and mobile version of China Gourmet Longmont’s website with Figma, and coded the design with HTML/CSS/Javascript. After launching in January of 2021, the website has streamlined the online ordering processes for customers, and has over 2,000 visits monthly. 
+
             </p>
             <p style="transform: translateX(10vw);">
                 <strong>Location:</strong> Longmont, CO <br>
@@ -92,24 +88,29 @@
         </div>
         <p style="margin-top:-18px;font-style: italic;">Operating a Restaurant in the COVID Environment</p>
         <div class='content'>
+            <p>
+                China Gourmet Longmont’s original website was a single static page with outdated graphics. After analyzing the website and discussing it with the restaurant owner, I identified three main issues with the current website. 
+
+            </p>
             <div class='section'>
                 <img class="prob1" src="assets/problem1.png">
                 <p>
-                    The original China Gourmet website included links to menus for both the Longmont and 
-                    Boulder locations, which would sometimes confuse customers and cause them to order from 
-                    the wrong store. This resulted in a bad experience for both customers and employees, 
-                    and was especially difficult to deal with during rush hours. 
-                </p>
+                    1. China Gourmet has two locations in Colorado: one in Longmont, and one in Boulder. Both locations sharing one website led to customers ordering from the wrong location at times, employee confusion when customers arrived expecting orders that were not there, and food waste due to extra orders being made at the wrong location. 
+                </p>     
             </div>
+            
             <div class='section'>
-                <p style="text-align: right; padding-right: 4vw;"> 
-                    The original menu led to a ten page pdf which was cumbersome for customers to scroll through, 
-                    with hard to read text, especially on mobile. Aesthetically, the vintage style site did not 
-                    match China Gourmet Longmont’s black and red logo and modern layout. Finally, the website did 
-                    not include any information on how to order online, which became crucial during COVID conditions. 
-                </p>
+                       <p>
+                           2. The menu displayed on the website led to a ten page pdf which was cumbersome for customers to scroll through, especially on mobile. This became a significant issue after online ordering became the new normal, in the midst of COVID19.
+                <br> 
+                <br>
+                        3. China Gourmet Longmont began to take online orders through Doordash, Chownow, and Grubhub, but this change was not reflected on the current website. The official website needed to be updated to inform customers of the new online ordering options, and help the restaurant retain business through lockdown periods. 
+                       </p>        
                 <img class="prob2" src='assets/problem2.png'>
                 </div>
+                <p > 
+                    After establishing these main issues to address in my redesign, I reflected on my past customer interactions as a cashier and waitress, and met with my coworker to flesh out the main user groups for our website.
+                </p>
             </div>
         </div>
 
@@ -120,20 +121,15 @@
         </div>
         <p style="margin-top:-18px;font-style: italic;">Balancing Multiple Stakeholders</p>
         <div class='content'>
-            <p>Integrating my experiences interacting with customers as a waitress and cashier at China Gourmet for 3 years, and meeting with the restaurant owner and my fellow co-workers, I identified three main stakeholders that frequent the restaurant. </p>
             <div class='personas'>
                 <img class='nora' src="assets/nora.png" alt="">
                 <img src="assets/ron.png" alt="">
                 <img class='tessa' src="assets/tessa.png" alt="">
             </div>
-            <p>Drawing from the behaviors, frustrations, and goals of our main stakeholders, I formulated five main objectives the website must fulfill.</p>
-            <ol>
-                <li>Easily editable menu to accomodate Nora's busy schedule and frequent changes</li>
-                <li>Prominent and straightforward ordering experience for regulars</li>
-                <li>Additional information and location for tourists</li>
-                <li>link online ordering services need to help China Gourmet survive through the pandemic</li>
-                <li>display COVID updates to ensure the safety of the customers</li>
-            </ol>
+            <p>Thinking about the main user groups for this project was interesting, because I had to keep both the client, Nora, and the customers in mind. Nora, the restaurant owner, balances her two businesses with her two school-aged children, and always has a packed schedule. However, she also changes the menu often with new specials and holiday entrees, so the new menu must be both navigable for the customers, and easily editable for her. These needs combined with my current limited web development knowledge required some creative thinking on my part, as I iterated through possible solutions  in my design process. 
+            </p>
+            <p>Focusing more on the diners now, China Gourmet Longmont’s main customer base is made of a mix of regulars and tourists. For regulars who already know what they want, there should be a clear order button immediately on the landing page. Tourists on the other hand, would benefit from a home page, with some additional information on the restaurant and food. What both types of users had in common was the need for a mobile-friendly site, and reliable updates on changes to the restaurant’s hours and seating caused by COVID19. Keeping these insights and the three main issues I identified previously in mind, I began to brainstorm possible website solutions.
+            </p>
         </div>
     </div>
 
@@ -144,13 +140,17 @@
         </div>
         <p style="margin-top:-18px;font-style: italic;">Breaking Down the China Gourmet Site</p>
         <div class='content'>
-            <p>Keeping these objectives in mind, I began to reinvent the China Gourmet website page by page.</p>
+            <p>I began my design process by looking at several other websites of local Chinese restaurants, and noting how they organized their menu and information. Considering common user flows found on other sites, and the specific issues that the China Gourmet website was facing, I decided to sort the website into four separate pages. The home page would introduce new customers to the website, and also direct regulars to the new online ordering methods. Some other websites had their hours and location information on the home page as well, but I decided to separate this into another page so that users could immediately access the information from the navigation bar, rather than searching through other pages. Considering how the hours may be updated frequently as the restaurant adjusted to the new COVID19 environment, I believed that this would be the best layout to make the information easily accessible to users. Now that customers had the option to place both phone or online orders, it was important to distinguish between the two, and give clear instructions to prevent confusion. I wasn’t sure whether to include this information on the home page with the order button, or the menu page, and also didn’t want to overload customers with many instructions immediately, so I decided to present the instruction in a popup after users clicked the order button. 
+            </p>
+            <p>Sorting the website content into these four pages, I first sketched some basic layouts to place the main elements of each page. I then moved to mid-fidelity mockups in Figma, where I pulled from pictures of the restaurant’s food, physical building, and logo to come up with some color palettes and typography to match the restaurant’s contemporary brand. Below I discuss my thought process behind each page in further detail. 
+            </p>
             <div class='section one'>
                 <img class='process1' src="assets/process1.png">
                 <div>
                     <h3> 1. Revamping Home Page</h3>
                     <p>
-                    In early sketches I wasn’t sure how much information to place on the home page, as many local competitors displayed their hours and location, about, pictures, menu information, and more. Reviewing the main customers China Gourmet serves helped me develop the final low-fidelity prototype. To create a welcoming space for new customers, I planned informational “about” and “specials” sections, along with pictures featuring the cooking process and food. For returning customers, I placed prominent “Order” buttons on the landing page, and navigation bar for easy ordering from any page. 
+                        In early sketches I wasn’t sure how much information to place on the home page, as many local competitors displayed their hours and location, about, pictures, menu, and more. Considering the current COVID19 climate, and the modern brand of the restaurant, I decided to create a separate hours and location page for easy access, and keep the home page clean and simple. Moving onto the actual content of the homepage, I designed with both the regulars and new customers in mind. To create a welcoming space for new customers, I added an “about us” section, a “specials” section, and pictures featuring the cooking process and food. For returning customers, I placed  a prominent “Order” button on the landing page, and in the navigation bar for easy ordering from any page. 
+ 
                     </p>
                 </div>
             </div>
@@ -158,7 +158,8 @@
                 <div class='left'>
                     <h3 style="margin-right:3vw;"> 2. Presenting Hours-and-Location Info</h3>
                     <p style="margin-right:3vw;">
-                        I made a separate “hours and location” page so customers could quickly access the information without searching through the homepage or footer. We also embedded a map, so users could see the location without opening another tab.
+                        I made a separate “hours and location” page so customers could quickly access the information without searching through the homepage or footer. We also embedded a google map so that new users and drivers from online delivery services could quickly view the location, or open directions in maps. 
+
                     </p>
                 </div>
                 <img class= "process2" src="assets/process2.png">
@@ -168,7 +169,8 @@
                 <div class='left'>
                     <h3>3. Differentiating between Online and Phone Orders</h3>
                     <p>
-                        Now that China Gourmet takes both phone orders and online orders, it is important to distinguish between the two for order to be packed accurately, and inform customers that online ordering is available through the official website. To accomplish this goal and prevent user information overload, the “Order” button opens a popup that clearly illustrates these two options.
+                        Now that China Gourmet takes both phone orders and online orders it is important to distinguish between the two, and make customers aware of the new online ordering services. Deciding where the “Order” button would lead was an interesting challenge. Initially I considered doing a separate order page with instructions on each ordering option, but felt that this might create an awkward user flow for customers trying to look at the menu and then order. However, I also didn’t want to list out the ordering instructions on the homepage, which would ruin the minimalistic and modern theme of the website. To address these considerations, I settled on having the “Order” button open a popup that clearly illustrates these two ordering options, and links to the menu. Since the order button is also included in the navigation bar, this would allow users to easily pull up the order options on the menu page after they have decided what to eat. 
+
                     </p>
                 </div>
             </div>
@@ -176,12 +178,14 @@
                 <div class='left'>
                     <h3 style="margin-right:3vw;">4. Navigable Online Menu</h3>
                     <p style="margin-right: 3vw;">
-                        Making the current pdf menu both easily navigable for users and easy for Nora to edit posed a challenge. Having a dropdown menu and a web page for each menu section would be good for users, but hard for Nora to edit, while embedding a pdf would be easy for Nora to update, but tedious to navigate, especially for new customers. 
+                        Making the current pdf menu both easily navigable for users and easy for Nora to edit was the most challenging part of the new website to design. Most chain restaurants I looked at had a dropdown menu with a separate page for each menu section, which would be the easiest for users to navigate through. However, the code for this would be more intricate, hard for Nora to update. On the other hand, the current pdf menu was super convenient for Nora, but difficult for users to scroll through. After several discussions with my teammate, and looking through many javascript libraries for inspiration, I decided to pull elements from both initial solutions to create a navigable carousel made of PNGs for each menu page. With this solution Nora could easily update the specials page by simply uploading a new png, and customers had  a dropdown menu that automatically scrolled the carousel to the specific menu section they clicked on.
+
                     </p>
                 </div>
                 <img class='process4' src="assets/process4.png">
             </div>
-            <p>Balancing these two stakeholders, I pulled elements from both initial solutions to create a navigable carousel made of PNGs for each menu page. With this solution Nora could easily update the specials page, and customers had access to a dropdown menu that automatically scrolled to specific menu sections. </p>
+            <p>Synthesizing my ideas into a set of high fidelity mockups, I presented my designs to the restaurant owner for feedback before coding up the final website with HTML, CSS, and Javascript. 
+            </p>
         </div>
     </div>
 
@@ -204,7 +208,8 @@
             </div>
             <a style="text-decoration:none;color:black;"target='_blank' rel='noopener noreferrer' href="http://www.chinagourmetlongmont.com/"><div class='button'><strong><p style="margin:0px">Visit site here</p></strong></div></a>
             </div>
-            <p style='margin-bottom:-30px; margin-top:8vh;'>The new aesthetic captures the contemporary Chinese eatery’s brand.  The dark grey, red, and tan color scheme inspired by the logo and physical building transfers the restaurant personality onto the online landscape amidst COVID19</p>
+            <p style='margin-bottom:-30px; margin-top:8vh;'>Aesthetically, the dark gray, red, and tan color scheme inspired by the logo and physical building aims to transfer the restaurant personality onto the online landscape amidst COVID19.
+            </p>
             <div class='section one'>
                 <h3>1. Covid Notification</h3>
                 <img class='covidnote' src="assets/cgcovid.png">
@@ -214,7 +219,8 @@
             <div class='section two'>
                 <h3>2. Home Page</h3>
                 <img class='homepage' src="assets/cghome.png">
-                <p>When presenting my high fidelity mockups to Nora, we realized that she would not be able to consistently update the specials section on the homepage with new pictures and text, so it is omitted from the final design. On the customer side, the immediate order buttons allow regulars to quickly order, while the “About Us” section aims to introduce the restaurant to tourists.
+                <p>
+                    When presenting my high fidelity mockups to Nora, we realized that she would not be able to consistently update the specials section on the homepage with new pictures and text, so it is omitted from the final design. On the customer side, the immediate order buttons allow regulars to quickly order, while the “About Us” section aims to introduce the restaurant to tourists.
                 </p>
             </div>
             <div class='section three'>
@@ -226,7 +232,8 @@
             <div class='section four'>
                 <h3>4. Menu</h3>
                 <img class='menu' src="assets/cgmenu.png">
-                <p>We changed the previous 10 page pdf menu into a carousel of pictures that can be navigated using the drop down menu or left and right buttons. The pictures are easy for Nora to navigate, and the menu is much easier for customers to look through now.</p>
+                <p>We changed the previous 10 page pdf menu into a carousel of pictures that can be navigated using the drop down menu or left and right buttons. The pictures are easy for Nora to navigate, and the menu is much easier for customers to look through now.
+                </p>
             </div>
             <div class='section five'>
                 <h3>5. Hours and Location</h3>
@@ -244,8 +251,12 @@
         </div>
         <p style="margin-top:-18px;font-style: italic;"></p>
         <div class='content'>
-            <p>I enjoyed working on this project because I was able to combine my experiences as a previous employee, and learnings from my first web design class, to help out a restaurant I care about. It was my first time working on a design project with a teammate, so it was nice to have someone I could get design feedback from, and work through challenges with. Through this project I learned how to collaborate on a project using github, and balance the needs of multiple stakeholders.</p>
-            <p>Looking back, there are still changes that could improve the user experience. For example, the COVID information could be made permanent, rather than shown in a pop-up, so users don’t have to remember the changed regulations. Overall, I was able to step through the design process with a real world project, and take a website from ideation to launch.</p>
+            <p>I really enjoyed working on this project because I was able to combine my experiences as a previous employee, and learnings from my first web design class to help out a restaurant I care about. It was my first time working on a design project with a teammate, so it was nice to have someone I could get design feedback from, and work through challenges with. Through this project I practiced designing and implementing a website with multiple pages, using github to collaborate on code, and balancing the needs of different user groups.
+            </p>
+            <p>Overall, I think this was a really successful project. The website now has over 2,000 visits each month, and has streamlined the online ordering experience for customers. I also updated the user interface  with new colors, typography, and pictures inspired by the restaurant’s logo and physical building. However, I also encountered many challenges through this project, and discovered some areas that I would like to grow in.
+            </p>
+            <p>Making the website standard and responsive in all browsers and screen-sizes was very difficult with my current basic knowledge of using HTML/CSS/Javascript to code from scratch, so for future projects I would plan to look into bootstrap and react. Additionally, I tried to made the website accessible with contrasting colors and alternative descriptive text for every image so that individual with any visual impairments could still use the website, but I am sure that I there are many more aspects that I have not considered yet, and I look forward to growing in this area with future projects.
+            </p>
         </div>
 
     </div>
